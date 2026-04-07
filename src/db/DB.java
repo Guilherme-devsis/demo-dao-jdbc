@@ -52,7 +52,7 @@ public class DB {
             }
         }
     }
-    public static void closeResultStatement(ResultSet rs) {
+    public static void closeResultSet(ResultSet rs) {
         if(rs != null){
             try {
                 rs.close();
